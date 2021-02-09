@@ -34,4 +34,4 @@ The last thing to do was actually train the NN's and see the highest accuracy th
 Conclusion:
 I have found that the most effective training method is to run Evolution training for a long time (~over night) until it reaches the point where most of the NN's are getting the highest score, then take one of them and run it through Back Propogation training, first with a mutation modifier of 0.5 and let that run for awhile, then take the new NN and run it through back propogation training again, but with a mutation modifier of 0.1. Repeat this with mutation modifier of 0.05, then 0.01, then 0.005, then 0.001, etc until no noticable improvements occur.
 
-The highest accuracy I managed to get was 91.238% accuracy for "Training.txt" and 90.94958493622191% accuracy for "Training_2.txt"
+The highest accuracy I managed to get was 91.238% accuracy for "Training.txt" and 90.94958493622191% accuracy for "Training_2.txt", both with an NN with 5 input nodes, and a 4 (2x2) hiddenLayer nodes.
